@@ -1,15 +1,8 @@
-# ƒuƒ‰ƒEƒU‚ğŠJ‚­B
+# chromeé–‹ãã ã‘
+from selenium import webdriver
+
 driver = webdriver.Chrome()
 
-# Google‚ÌŒŸõTOP‰æ–Ê‚ğŠJ‚­B
 driver.get("https://www.google.co.jp/")
 
-# ŒŸõŒê‚Æ‚µ‚Äuseleniumv‚Æ“ü—Í‚µAEnterƒL[‚ğ‰Ÿ‚·B
-driver.find_element_by_id("lst-ib").send_keys("selenium")
-driver.find_element_by_id("lst-ib").send_keys(Keys.ENTER)
-
-# ƒ^ƒCƒgƒ‹‚ÉuSelenium - Web Browser Automationv‚Æˆê’v‚·‚éƒŠƒ“ƒN‚ğƒNƒŠƒbƒN‚·‚éB
-driver.find_element_by_link_text("Selenium - Web Browser Automation").click()
-
-# ƒuƒ‰ƒEƒU‚ğI—¹‚·‚éB
 driver.close()

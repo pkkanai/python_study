@@ -1,4 +1,4 @@
 
-# �n���}�[�J���}�[
+# ハンマーカンマーお察しします
 hummmer = "hello python"
 print(hummmer);
