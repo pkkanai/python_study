@@ -1,8 +1,11 @@
 # chrome開くだけ
-from selenium import webdriver
+import selenium
+print(selenium.__file__)
 
-driver = webdriver.Chrome()
+#from selenium import webdriver
 
-driver.get("https://www.google.co.jp/")
+#driver = webdriver.Chrome("C:\selenium\chromedriver.exe")
 
-driver.close()
+#driver.get("https://www.google.co.jp/")
+
+#driver.close()
